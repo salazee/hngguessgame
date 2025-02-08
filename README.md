@@ -1,0 +1,2 @@
+This my color guessing game was developed using Html,Css and javascript. Lots of thanks to the community that makes tech/coding and other stuffs open source, I am really grateful for the guidance and support found online.
+Thank you
