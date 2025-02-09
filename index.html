@@ -9,7 +9,7 @@
 <body>
     <div class="container" data-testid="container">
         <h1>Color Guessing Game</h1>
-        <p>Click the color you think is the hidden target!</p>
+        <p data-testid="gameInstructions">Click the color you think is the hidden target!</p>
 
         
         <!-- Target Color Box -->
@@ -29,8 +29,8 @@
 
         <!-- Game Over Message -->
         <div data-testid="game-over" id="game-over" class="hidden">
-            <h2>Game Over!</h2>
-            <p>Your final score: <span id="final-score"></span></p>
+            <h2 4>Game Over!</h2>
+            <p>Your final score: <span id="final-score" data-testid="finalScore"></span></p>
             <button data-testid="restart-btn" id="restart-btn">Play Again</button>
         </div>
     </div>
